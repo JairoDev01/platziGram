@@ -2,12 +2,20 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jairo.platzigram">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <provider
+            android:name="br.com.mauker.materialsearchview.db.HistoryProvider"
+            android:authorities="br.com.mauker.materialsearchview.searchhistorydatabase"
+            android:exported="false"
+            android:protectionLevel="signature"
+            android:syncable="true"/>
         <activity android:name=".ui.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,11 +27,19 @@
             android:name=".ui.basic"
             android:label="@string/title_activity_basic"
             android:theme="@style/AppTheme" />
-        <activity android:name=".ui.CreateAccount"
+        <activity
+            android:name=".ui.CreateAccount"
             android:parentActivityName=".ui.LoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ui.LoginActivity"/>
+                android:value=".ui.LoginActivity" />
+        </activity>
+        <activity android:name=".ui.ContainerActivity" />
+        <activity android:name=".ui.PictureDetail"
+            android:parentActivityName=".ui.ContainerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.LoginActivity" />
         </activity>
     </application>
 

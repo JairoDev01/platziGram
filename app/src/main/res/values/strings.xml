@@ -12,4 +12,18 @@
     <string name="hint_user">Usuario</string>
     <string name="text_button_createaccount">Unete</string>
     <string name="toolbar_tittle_createaccount">Crear cuenta</string>
+    <string name="username_card">Jairo Velásquez</string>
+    <string name="firstword_card">Hace</string>
+    <string name="timecard_card">4 días</string>
+    <string name="likenumbercar_card">10 me Gusta</string>
+    <string name="tab_search">Buscar</string>
+    <string name="tab_home">Inicio</string>
+    <string name="tab_profile">Yo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="secod_word_detail">Me gusta</string>
+    <string name="title_image_detail">\"Todo coco en la playa\"</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed velit dapibus, sodales arcu sed, tempor nulla. Nam mollis enim at semper aliquet. Nam quam lacus, tincidunt quis porttitor quis, blandit at velit. Praesent maximus ipsum et enim efficitur egestas. Pellentesque at mi ac turpis fermentum tincidunt. Duis viverra ligula vitae turpis dapibus pellentesque. Maecenas porta sem eget est faucibus, a imperdiet lacus cursus. Curabitur ante nisl, volutpat ut lectus eget, dictum sollicitudin ex. Etiam lacinia sed est ac scelerisque.  Fusce venenatis massa eu augue convallis, id euismod turpis ullamcorper. Aenean porttitor commodo risus, varius sagittis lectus tincidunt ac. Ut semper venenatis lacus, vel tristique enim pharetra ut. Donec quis quam bibendum magna pretium euismod. Aliquam quis nisi sed libero facilisis vestibulum. Nulla ultrices sem in finibus luctus. Donec nunc est, lobortis ac ante ut, faucibus malesuada lectus. Ut eget vulputate ex.</string>
+    <string name="transitionname_picture">transitionname_picture</string>
 </resources>
